@@ -1,0 +1,47 @@
+.header{
+  background-color: rgb(241, 241, 241);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  }
+  .name-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  .weblogo{
+  height: 36px;
+  padding-top: 6px;
+  }
+  
+  .weblogo-box{
+    border: none;
+  } 
+  .info-bar{
+    display: flex;
+    align-items:center;
+    justify-content: right;
+  }
+  .bio,
+  .activities,
+  .achivments,
+  .contact{
+    border:none;
+  }
+  .bio-image,
+  .activities-image,
+  .achivments-image,
+  .contact-image{
+    height: 44px;
+  }
+  
+  .contact{
+  background-color: white;
+
+
+  }
